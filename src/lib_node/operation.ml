@@ -59,9 +59,7 @@ let bounded_hash_list_encoding ?max_length ?max_pass () =
        (Operation_list_list_hash.bounded_path_encoding ?max_length:max_pass ()))
     (req "operation_hashes" (Variable.list ?max_length Operation_hash.encoding))
 
-let pp fmt op =
-  Data_encoding.Json.pp fmt
-    (Data_encoding.Json.construct encoding op)
+let pp fmt op = Data_encoding.Json.pp fmt (Data_encoding.Json.construct encoding op)
 
 let to_bytes v = Data_encoding.Binary.to_bytes_exn encoding v
 let of_bytes b = Data_encoding.Binary.of_bytes encoding b
