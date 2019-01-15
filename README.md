@@ -18,8 +18,8 @@ We are looking forward to collaborating with developers and waiting for enthusia
 
 
 # Documents:
-1. [Overview](https://media.republia.io/republia-overview-en.pdf/)
-2. [Technical Paper](https://media.republia.io/republia-techpaper-en.pdf/)
+1. [Overview](https://media.republia.io/republia-overview-en.pdf)
+2. [Technical Paper](https://media.republia.io/republia-techpaper-en.pdf)
 
   # Contact:
   1. [Website Republia Group](https://republia.group)
